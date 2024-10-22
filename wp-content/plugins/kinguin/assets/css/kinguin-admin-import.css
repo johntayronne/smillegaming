@@ -1,0 +1,196 @@
+.import-setup {
+  background: #fff;
+  padding: 0;
+  margin: 20px auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+  color: #555;
+  text-align: left;
+  max-width: 700px;
+  font-size: 14px;
+}
+.import-setup header {
+  padding: 30px 20px;
+  border-bottom: 1px solid #eee;
+}
+.import-setup header h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0.5em 0;
+}
+.import-setup header p {
+  line-height: 1.75em;
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+.import-setup__begin {
+  padding: 30px 20px;
+}
+.import-setup__begin p {
+  font-size: 14px;
+}
+.import-setup__process {
+  padding: 20px 20px;
+  display: none;
+}
+.import-setup__process p {
+  font-size: 14px;
+}
+.import-setup__process dl {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 0 16px;
+}
+.import-setup__process dl dd,
+.import-setup__process dl dt {
+  margin: 0;
+  padding: 16px 0;
+}
+.import-setup__process dl dd:not(:last-child):not(:nth-last-child(2)),
+.import-setup__process dl dt:not(:last-child):not(:nth-last-child(2)) {
+  border-bottom: 1px solid #eee;
+}
+.import-setup__process dl dd {
+  text-align: right;
+}
+.import-setup__process .status_cache_dir,
+.import-setup__process .status_cache,
+.import-setup__process .status_import {
+  position: relative;
+  font-weight: 500;
+}
+.import-setup__process .status_cache_dir.success,
+.import-setup__process .status_cache.success,
+.import-setup__process .status_import.success {
+  color: #00851f;
+}
+.import-setup__process .status_cache_dir.success:before,
+.import-setup__process .status_cache.success:before,
+.import-setup__process .status_import.success:before {
+  font-family: dashicons;
+  content: "\f12a";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  font-size: 20px;
+}
+.import-setup__process .progress {
+  margin-bottom: 10px;
+}
+.import-setup__process .progress progress {
+  background-color: #f3f3f3;
+  border: 0;
+  width: 100%;
+  height: 26px;
+  border-radius: 4px;
+  padding: 2px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.import-setup__process .progress progress::-webkit-progress-bar {
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
+.import-setup__process .progress progress::-webkit-progress-value {
+  background: #2271b1;
+  border-radius: 4px;
+}
+.import-setup__process .progress progress::-moz-progress-bar {
+  background: #2271b1;
+  border-radius: 4px;
+}
+.import-setup__done {
+  display: none;
+  padding: 30px 20px;
+  text-align: center;
+}
+.import-setup__done .dashicons.dashicons-yes-alt {
+  color: #00851f;
+  font-size: 120px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  margin: auto;
+}
+.import-setup__done p {
+  font-size: 14px;
+}
+.import-setup__done h3 {
+  margin-bottom: 0px;
+}
+.import-setup footer {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+@keyframes slide {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 113px;
+  }
+}
+
+
+/* ======== */
+
+
+.progress-db {
+    padding: 2px;
+    background: #f3f3f3;
+    border-radius: 4px;
+    /*box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);*/
+    height: 26px;
+}
+
+@keyframes progressAnimation {
+    0%   { width: 5%; background-color: #cccccc;}
+    100% { width: 85%; background-color: #9bcd99; }
+}
+
+.progress-bar-kinguin {
+    height: 26px;
+    border-radius: 4px;
+    background-image:
+            linear-gradient(to right,
+            #7daa87, #9bcd99, #cccccc,
+            #7daa87, #9bcd99, #cccccc);
+    transition: 1s linear;
+    transition-property: width, background-color;
+}
+
+.progress-infinite .progress-bar-kinguin {
+    width: 0%;
+    max-width: 100%;
+    background-image:
+            linear-gradient(to right, #7daa87, #9bcd99, #cccccc, #cccccc);
+    animation: colorAnimation 3s infinite;
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-image:
+                linear-gradient(to right, #4cd964, #9bcd99, #cccccc, #cccccc);
+    }
+    20% {
+        background-image:
+                linear-gradient(to right, #cccccc, #7daa87, #9bcd99, #cccccc);
+    }
+    40% {
+        background-image:
+                linear-gradient(to right, #7daa87, #9bcd99, #cccccc, #cccccc);
+    }
+    60% {
+        background-image:
+                linear-gradient(to right, #9bcd99, #7daa87, #cccccc, #cccccc);
+    }
+    100% {
+        background-image:
+                linear-gradient(to right, #7daa87, #cccccc, #9bcd99, #cccccc);
+    }
+}

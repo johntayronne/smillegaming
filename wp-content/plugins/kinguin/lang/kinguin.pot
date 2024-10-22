@@ -1,0 +1,417 @@
+# Copyright (C) 2021 WP Desk
+# This file is distributed under the same license as the Kinguin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kinguin 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kinguin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-29T10:36:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: kinguin\n"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+msgid "Kinguin"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid ""
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Desk"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://ilabs.dev/"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:153
+msgid "Europe"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:154
+msgid "United States"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:155
+msgid "Region free"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:156
+msgid "Other"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:157
+msgid "Outside Europe"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:158
+msgid "RU VPN"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:159
+msgid "Russia"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:160
+msgid "United Kingdom"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:161
+msgid "China"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:162
+msgid "RoW (Rest of World)"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:163
+msgid "Latin America"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:164
+msgid "Asia"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:165
+msgid "Germany"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:166
+msgid "Australia"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:167
+msgid "Brazil"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:168
+msgid "India"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:169
+msgid "Japan"
+msgstr ""
+
+#: src/Plugin/Admin/Configuration.php:170
+msgid "North America"
+msgstr ""
+
+#: src/Plugin/Admin/Exceptions/FranfurterNoConnectionException.php:8
+#: src/Plugin/Admin/Exceptions/KinguinNoConnectionException.php:13
+msgid "No connection"
+msgstr ""
+
+#: src/Plugin/Admin/Exceptions/KinguinCacheDirError.php:13
+msgid "Cache directory cannot be created. Product import cannot proceed."
+msgstr ""
+
+#: src/Plugin/Admin/Exceptions/KinguinKeysEmailFailed.php:13
+msgid "Email with keys cannot be send."
+msgstr ""
+
+#: src/Plugin/Admin/Exceptions/KinguinMissingApiKeyException.php:13
+msgid "Missing API key. Please provide it in the settings tab."
+msgstr ""
+
+#: src/Plugin/Admin/Exceptions/KinguinUnexpectedResponse.php:13
+msgid "There are no products to import within Kinguin API response."
+msgstr ""
+
+#: src/Plugin/Admin/Import.php:193
+#: src/Plugin/Admin/Import.php:249
+msgid "Access denied."
+msgstr ""
+
+#: src/Plugin/Admin/MainAdmin.php:98
+#: src/Plugin/Admin/MainAdmin.php:99
+msgid "Import products"
+msgstr ""
+
+#: src/Plugin/Admin/MainAdmin.php:108
+#: src/Plugin/Admin/MainAdmin.php:109
+msgid "Settings"
+msgstr ""
+
+#: src/Plugin/Admin/Order/ActionsSelect.php:50
+msgid "Send Kinguin keys via e-mail"
+msgstr ""
+
+#: src/Plugin/Admin/Order/ActionsSelect.php:52
+msgid "Get Kinguin keys"
+msgstr ""
+
+#: src/Plugin/Admin/Order/ActionsSelect.php:75
+msgid "Keys downloaded manually by %s"
+msgstr ""
+
+#: src/Plugin/Admin/Order/ActionsSelect.php:95
+msgid "Games keys has been sent to %s"
+msgstr ""
+
+#: src/Plugin/Admin/Order/MetaBoxDetails.php:74
+msgid "Kinguin Order Details"
+msgstr ""
+
+#: src/Plugin/Admin/Product/Attributes.php:52
+msgid "Developers"
+msgstr ""
+
+#: src/Plugin/Admin/Product/Attributes.php:71
+msgid "Publishers"
+msgstr ""
+
+#: src/Plugin/Admin/Product/Attributes.php:90
+msgid "Genres"
+msgstr ""
+
+#: src/Plugin/Admin/Product/Attributes.php:109
+msgid "Platform"
+msgstr ""
+
+#: src/Plugin/Admin/Product/Attributes.php:128
+msgid "Languages"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:79
+msgid "Kinguin details"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:83
+#: templates/accordion/system_requirements.php:19
+msgid "System requirements"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:105
+#: templates/user-account-tab/games-list.php:36
+msgid "Kinguin ID"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:114
+#: src/Plugin/Admin/templates/order_details_template.php:38
+msgid "Price"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:122
+#: templates/product_add_to_cart.php:37
+msgid "STEAM"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:130
+#: templates/product_add_to_cart.php:43
+msgid "Age rating"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:138
+msgid "Region limitations"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:145
+#: templates/accordion/activation_details.php:19
+msgid "Activation details"
+msgstr ""
+
+#: src/Plugin/Admin/Product/DataTabs.php:200
+msgid "There are no system requirements for this product"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:64
+msgid "API Key"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:69
+msgid "Provide Kinguin API key. You can obtain it from Your integration account:"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:72
+msgid "production"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:73
+msgid "sandbox"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:85
+msgid "API Environment"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:89
+msgid "Production"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:90
+msgid "Sandbox"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:93
+msgid "Select sandbox if you want to test Kinguin integration."
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:105
+msgid "Orders Webhooks"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:112
+#: src/Plugin/Admin/SettingsPage.php:143
+msgid "Webhook Url"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:115
+msgid "Copy Webhook Url into both Order Complete and Order Status Change webhook url field within your Kinguin store configuration."
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:121
+#: src/Plugin/Admin/SettingsPage.php:152
+msgid "Secret"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:124
+msgid "Copy Webhook Secret into both Order Complete and Order Status Change secret field within your Kinguin store configuration."
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:136
+msgid "Products Webhook"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:146
+msgid "Copy Webhook Url into Product Update webhook url field within your Kinguin store configuration."
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:155
+msgid "Copy Webhook Secret into Product Update secret field within your Kinguin store configuration."
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:167
+msgid "Email message"
+msgstr ""
+
+#: src/Plugin/Admin/SettingsPage.php:181
+msgid "Message send to customers with games keys."
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:20
+msgid "Import games from Kinguin"
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:23
+msgid "This tool allows you to import games from Kinguin into your Woocommerce shop."
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:29
+msgid "Click - Import Products - to begin with product import."
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:30
+msgid "Please note, this process can take up to a couple minutes and it should not be interrupted."
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:37
+msgid "Create cache directory"
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:43
+msgid "Importing products sets from Kinguin"
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:49
+msgid "Creating products"
+msgstr ""
+
+#: src/Plugin/Admin/templates/import_template.php:62
+msgid "Import Products"
+msgstr ""
+
+#: src/Plugin/Admin/templates/no_order_details_template.php:14
+msgid "There are no details for this order"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:19
+#: templates/user-account-tab/games-list.php:22
+msgid "Order"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:21
+msgid "Order status at Kinguin"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:27
+msgid "Order created"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:29
+msgid "Last order update"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:31
+msgid "Keys available in user account"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:32
+#: templates/product_add_to_cart.php:38
+msgid "Yes"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:32
+msgid "No"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:37
+#: src/Plugin/Common/KeysEmail.php:70
+#: templates/user-account-tab/games-list.php:32
+msgid "Name"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:39
+msgid "Quantity"
+msgstr ""
+
+#: src/Plugin/Admin/templates/order_details_template.php:40
+#: src/Plugin/Admin/templates/order_details_template.php:55
+msgid "Total"
+msgstr ""
+
+#: src/Plugin/Common/KeysEmail.php:52
+msgid "Your games keys"
+msgstr ""
+
+#: src/Plugin/Common/KeysEmail.php:71
+msgid "Key"
+msgstr ""
+
+#: src/Plugin/Frontend/UserAccountKeys.php:103
+msgid "Games keys"
+msgstr ""
+
+#: templates/accordion/description.php:17
+msgid "Description"
+msgstr ""
+
+#: templates/accordion/reviews.php:18
+msgid "Reviews"
+msgstr ""
+
+#: templates/product_add_to_cart.php:31
+msgid "Release date"
+msgstr ""
+
+#: templates/product_add_to_cart.php:49
+msgid "Metacritic score"
+msgstr ""
+
+#: templates/product_add_to_cart.php:55
+msgid "Regional limitations"
+msgstr ""
+
+#: templates/product_add_to_cart.php:81
+msgid "Buy now!"
+msgstr ""
+
+#: templates/user-account-tab/no-games.php:16
+msgid "There are no keys at the moment."
+msgstr ""

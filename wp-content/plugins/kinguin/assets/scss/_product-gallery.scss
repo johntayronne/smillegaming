@@ -1,0 +1,29 @@
+.kinguin_product_gallery {
+  margin-bottom: 60px;
+  background: var( --c-text );
+  padding: 10px;
+  border-radius: 20px;
+  .gallery__fulls {
+    margin-bottom: 7px;
+    .swiper-slide {
+      img {
+        margin: 0 auto;
+        border-radius: 0;
+      }
+    }
+  }
+  .gallery__thumbs {
+    .swiper-slide {
+      cursor: pointer;
+      img {
+        border-radius: 0;
+        border: solid 2px transparent;
+      }
+      &.swiper-slide-thumb-active {
+        img {
+          border: solid 2px var( --c-primary );
+        }
+      }
+    }
+  }
+}

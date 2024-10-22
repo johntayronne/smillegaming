@@ -1,0 +1,32 @@
+.kinguin-keys-list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.kinguin-keys-list .order {
+  background-color: #fbfbfb;
+  padding: 1em;
+}
+.kinguin-keys-list .order__id {
+  margin: 0;
+}
+.kinguin-keys-list .order__date {
+  display: block;
+}
+.kinguin-keys-list .order__items .item {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+.kinguin-keys-list .order__items .item__serial input {
+  width: 100%;
+  max-width: unset;
+  margin-top: 5px;
+}
+.kinguin-keys-list .order:nth-child(even) {
+  background-color: #fdfdfd;
+}
+.kinguin-keys-list.no-keys {
+  justify-content: center;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}

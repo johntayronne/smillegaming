@@ -1,0 +1,5 @@
+{
+    "require": {
+        "g2a/integration-api-client": "^1.0"
+    }
+}

@@ -1,0 +1,36 @@
+.kinguin-keys-list {
+  display: flex;
+  flex-flow: column nowrap;
+  .order {
+    background-color: #fbfbfb;
+    padding: 1em;
+    &__id {
+      margin: 0;
+    }
+    &__date {
+      display: block;
+    }
+    &__items {
+      .item {
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+        &__serial {
+          input {
+            width: 100%;
+            max-width: unset;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    &:nth-child(even) {
+      background-color: #fdfdfd;
+    }
+  }
+  &.no-keys {
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}

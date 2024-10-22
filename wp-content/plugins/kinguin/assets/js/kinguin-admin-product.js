@@ -1,0 +1,1 @@
+const dataTable = new DataTable("#offers-table");

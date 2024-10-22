@@ -1,0 +1,41 @@
+.kinguin-order-details {
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    dt,
+    dd {
+      margin: 0;
+      line-height: 30px;
+    }
+  }
+  table {
+    margin-top: 1em;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      th {
+        padding: 1em;
+        font-weight: 500;
+        background: #f8f8f8;
+        border: 1px solid #dfdfdf;
+      }
+    }
+    tbody {
+      td {
+        padding: 1em;
+        border: 1px solid #dfdfdf;
+      }
+    }
+    tfoot {
+      td {
+        padding: 1em;
+        font-weight: 500;
+        background: #f8f8f8;
+        border: 1px solid #dfdfdf;
+      }
+    }
+  }
+}

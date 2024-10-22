@@ -1,0 +1,61 @@
+{
+	"name": "wpdesk/kinguin",
+	"authors": [
+		{
+			"name": "Krzysiek",
+			"email": "krzysiek@wpdesk.net"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WPDesk\\ILKinguin\\": "src/Plugin"
+		},
+		"classmap": [
+			"vendor_prefixed"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/unit",
+			"tests/integration"
+		]
+	},
+	"config": {
+		"sort-packages": true,
+		"platform": {
+			"php": "7.0"
+		}
+	},
+
+	"require": {
+		"php": ">=7.0",
+		"psr/log": "^1.0.1",
+		"wpdesk/wp-notice": "^3.1",
+		"wpdesk/wp-wpdesk-helper-override": "^1.1.0"
+	},
+	"require-dev": {
+		"10up/wp_mock": "*",
+		"wpdesk/wp-plugin-flow": "^2",
+		"phpunit/phpunit": "<7",
+		"wpdesk/wp-wpdesk-composer": "^2"
+	},
+	"extra": {
+		"text-domain": "kinguin",
+		"translations-folder": "lang",
+		"translation-file-headers": {
+			"Project-Id-Version": "Plugin Template",
+			"Last-Translator": "Grzegorz Rola <grola@wpdesk.pl>",
+			"X-Poedit-WPHeader": "kinguin.php"
+		},
+		"po-files": {
+			"pl_PL": "pl_PL.po"
+		}
+	},
+	"scripts": {
+		"test": "echo composer is alive",
+		"phpcs": "phpcs",
+		"phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+		"phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+		"docs": "apigen generate"
+	}
+}

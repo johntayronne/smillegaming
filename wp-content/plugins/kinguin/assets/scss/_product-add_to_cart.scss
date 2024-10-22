@@ -1,0 +1,62 @@
+.kinguin_product_add_to_cart {
+  background: var( --c-default );
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  color: var(--c-text);
+  @include media-up(sm) {
+    flex-flow: row nowrap;
+  }
+  @include media-up(md) {
+    padding: 15px 20px;
+  }
+  .add-to-cart__product{
+    flex-grow: 1;
+    .wrapper {
+      column-width: 300px;
+      column-gap: 30px;
+      margin-top: 20px;
+      dl {
+        margin: 0 0 10px 0;
+        display: flex;
+        dt {
+          padding: 3px 10px 3px 0;
+          border-right: solid 1px rgba( #cccccc, .75 );
+          flex: 0 0 150px;
+          font-weight: 600;
+          break-inside: avoid!important;
+        }
+        dd {
+          margin: 0;
+          padding: 3px 0 3px 10px;
+          break-inside: avoid!important;
+        }
+      }
+    }
+  }
+  .add-to-cart__summary {
+    margin-top: 20px;
+    @include media-up(sm) {
+      padding-left: 10px;
+      flex: 0 0 300px;
+    }
+    .add_to_cart_button {
+      border-radius: 20px;
+      display: block;
+      width: 100%;
+      background-color: var( --c-primary );
+      color: black;
+      padding: 10px;
+      font-size: 21px;
+      font-weight: bold;
+      text-transform: uppercase;
+      svg {
+        display: block;
+        max-width: 60px;
+        margin: 5px auto;
+      }
+    }
+  }
+}

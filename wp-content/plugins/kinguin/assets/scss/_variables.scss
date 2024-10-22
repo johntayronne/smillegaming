@@ -1,0 +1,35 @@
+/**
+ * Variables
+ *
+ * @package woobiboo
+ * @since 3.0.0
+ */
+
+:root {
+	// --c- for colors
+    --c-default    : #f2f2f2;
+    --c-gray       : #cccccc;
+    --c-text       : #333333;
+	--c-primary    : #feb631;
+}
+
+
+// Breakpoints
+$breakpoints: (
+    xxs: 320px,
+    xs: 576px,
+    sm: 768px,
+    md: 992px,
+    lg: 1200px,
+    xl: 1420px,
+    2xl: 1640px,
+    3xl: 1920px ) !default;
+
+
+// Standard container	
+$container-max-widths: (
+	xxs: 100%,
+	xs: 540px,
+    sm: 720px,
+    md: 980px, 
+    lg: 1140px ) !default;

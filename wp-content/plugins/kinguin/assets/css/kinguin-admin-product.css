@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.kinguin_panel {
+  display: none;
+}
+.kinguin_panel--table table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #333;
+}
+.kinguin_panel--table table thead tr {
+  border-bottom: 1px solid #eee;
+}
+.kinguin_panel--table table thead tr th {
+  padding: 11px;
+  text-align: left;
+}
+.kinguin_panel--table table tbody tr td {
+  padding: 11px;
+}
+.kinguin_panel--table table tbody tr:nth-child(odd) td {
+  background-color: #f6f7f7;
+}
+.kinguin_panel--requirements {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+}
+.kinguin_panel--requirements .system {
+  border: 1px solid #eee;
+  padding: 10px;
+  background-color: #fafafa;
+}
+.kinguin_panel--requirements .system h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#_activationDetails {
+  min-height: 150px;
+}
+
+#woocommerce-product-data ul.wc-tabs li.kinguin_offers_tab a::before {
+  content: "";
+}
+
+#woocommerce-product-data ul.wc-tabs li.kinguin_details_tab a::before {
+  content: "";
+}
+
+#woocommerce-product-data ul.wc-tabs li.system_requirements_tab a::before {
+  content: "";
+}

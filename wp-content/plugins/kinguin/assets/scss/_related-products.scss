@@ -1,0 +1,5 @@
+ul.products li.product {
+  @include media-up(md) {
+    width: calc(100% / 3);
+  }
+}
